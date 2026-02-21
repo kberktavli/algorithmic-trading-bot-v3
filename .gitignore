@@ -1,0 +1,26 @@
+# Güvenlik (ÇOK ÖNEMLİ)
+.env
+*.env
+
+# Mac Artıkları
+.DS_Store
+
+# Go Dosyaları
+/bin
+/obj
+*.exe
+*.test
+
+# Python, ML Bot ve Sanal Ortamlar
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# ML Bot Verileri (Büyük dosyaları dışarıda bırakıyoruz)
+data/
+models/
+*.csv
+*.log

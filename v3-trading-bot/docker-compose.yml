@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  # Veritabanı Servisimiz
+  db:
+    image: postgres:15-alpine
+    container_name: v3_trading_db
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: mysecretpassword
+      POSTGRES_DB: trading_bot_v3
+    ports:
+      - "5432:5432" # Bilgisayarının 5432 portunu, konteynerin 5432 portuna bağlar
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
