@@ -5,7 +5,7 @@
     
     "client_args": {"testnet": "true"},
     "api_key": "<binance_api_key",
-    "api_secret": "binance_secret_key",
+    "api_secret": "<binance_secret_key>",
 
    
 
