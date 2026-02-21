@@ -4,8 +4,8 @@
     "venue": "binance",
     
     "client_args": {"testnet": "true"},
-    "api_key": "2TwOZam09NTWIxCiCSt1ba7lXLDyG8P4tlUqALDkzyoQvBsAMBoxHbBtRSoduoCu",
-    "api_secret": "772pg25oBFdADZHsnoSLSM3D6TcJEIqwuylD64jAdk10X5zFp1UxjusfIDCRcQsZ",
+    "api_key": "<binance_api_key",
+    "api_secret": "binance_secret_key",
 
    
 
